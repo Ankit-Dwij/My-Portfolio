@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b5efe56371.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-body text-white font-poppins pb-12">
+    <header class="py-6">
+      <div
+        class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
+      >
+        <div class="text-lg font-bold">Ankit.Dwij</div>
+        <div class="hidden md:flex space-x-12 items-center">
+          <a href="#" class="text-selected-text">Home</a>
+          <a href="#">About Me</a>
+          <a href="#work">My Work</a>
+          <a href="#hire"
+            ><button class="px-6 py-2 bg-theme font-bold">Hire Me</button>
+          </a>
+        </div>
+        <div class="md:hidden">
+          <i class="fa-solid fa-bars cursor-pointer"></i>
+        </div>
+      </div>
+    </header>
+
+    <div
+      class="container mt-14 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
+    >
+      <div class="flex flex-wrap md:flex-nowrap">
+        <div
+          class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36"
+        >
+          <h1
+            class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left"
+          >
+            Building<br />
+            beautiful web experiences.
+          </h1>
+          <div class="w-full flex justify-center md:justify-start">
+            <button
+              class="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3"
+            >
+              <div></div>
+              <span>View my work.</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
